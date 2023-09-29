@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* *{
+  border: 1px solid red
+} */
+body {
+  margin: 0;
+  
+  font-family: 'Lora', serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* src/index.css */
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff;
+    color: #333333;
+  }
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body.dark {
+    background-color: #1a202c;
+    color: #e2e8f0;
+  }
+}
